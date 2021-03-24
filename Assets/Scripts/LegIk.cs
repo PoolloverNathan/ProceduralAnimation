@@ -14,7 +14,7 @@ public class LegIk : MonoBehaviour {
     [Header ("IK Data")]
     public bool isMounted = false;
     public IkType ikType;
-    [Tooltip ("Only Used If IkType is Iterative")] public int iterations = 4;
+    [Tooltip ("Only Used If Ik Type is Iterative")] public int iterations = 4;
 
     [Header ("Segment Data")]
     public int segmentCount = 4;
