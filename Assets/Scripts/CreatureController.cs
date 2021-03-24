@@ -19,7 +19,7 @@ public class CreatureController : MonoBehaviour {
     public bool dynamicGait = false;
     public float timeBetweenSteps = 0.25f;
     public float stepDurationRatio = 2f;
-    [Tooltip("Used if dynamicGait is true to calculate timeBetweenSteps")] public float maxTargetDistance = 1f;
+    [Tooltip("Used if Dynamic Gait is true to calculate Time Between Steps")] public float maxTargetDistance = 1f;
     public float lastStep = 0;
 
     [Header("Alignment")]
